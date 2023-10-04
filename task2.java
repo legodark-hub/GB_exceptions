@@ -20,6 +20,8 @@ public class task2 {
             System.out.println("catchedRes1 = " + catchedRes1);
         } catch (ArithmeticException e) {
             System.out.println("Catching exception: " + e.getMessage());
+        } catch (Exception ex) {
+            System.out.println("Ошибка");
         }
     }
 
